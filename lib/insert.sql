@@ -22,17 +22,17 @@ INSERT INTO users (name, age) VALUES
 ('Rosey', 9),
 ('Victoria', 23),
 ('Franz', 100),
-(1'Hermione', 30),
-(1'Voldemort', 90),
-(1'Marisa', 24),
-(1'Swizzle', 4),
-(1'Sirius', 36),
-(1'Albus', 113),
-(1'Squid', 5),
-(1'Whale', 6),
-(1'Pacha', 5),
-(1'Ena', 24),
-(2'Katie', 24);
+('Hermione', 30),
+('Voldemort', 90),
+('Marisa', 24),
+('Swizzle', 4),
+('Sirius', 36),
+('Albus', 113),
+('Squid', 5),
+('Whale', 6),
+('Pacha', 5),
+('Ena', 24),
+('Katie', 24);
 
 -- pledges insert
 INSERT INTO pledges (amount, user_id, project_id) VALUES
