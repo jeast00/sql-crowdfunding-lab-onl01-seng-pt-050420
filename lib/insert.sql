@@ -12,24 +12,26 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ('Help save birds of paradise', 'charity', 5000.00, '2012-03-20', '2013-06-30');
 
 -- Users insert
-INSERT INTO users (id, name, age) VALUES
-(1, 'Finnebar', 17),
-(2, 'Bear', 6),
-(3, 'Iguana', 4),
-(4, 'Alex', 33),
-(5, 'Amanda', 24),
-(6, 'Sophie', 24),
-(7, 'Rosey', 9),
-(8, 'Victoria', 23),
-(9, 'Franz', 100),
-(10, 'Hermione', 30),
-(11, 'Voldemort', 90),
-(12, 'Marisa', 24),
-(13, 'Swizzle', 4),
-(14, 'Sirius', 36),
-(15, 'Albus', 113),
-(16, 'Squid', 5),
-(17, 'Whale', 6),
-(18, 'Pacha', 5),
-(19, 'Ena', 24),
-(20, 'Katie', 24);
+INSERT INTO users (name, age) VALUES
+('Finnebar', 17),
+('Bear', 6),
+('Iguana', 4),
+('Alex', 33),
+('Amanda', 24),
+('Sophie', 24),
+('Rosey', 9),
+('Victoria', 23),
+('Franz', 100),
+(1'Hermione', 30),
+(1'Voldemort', 90),
+(1'Marisa', 24),
+(1'Swizzle', 4),
+(1'Sirius', 36),
+(1'Albus', 113),
+(1'Squid', 5),
+(1'Whale', 6),
+(1'Pacha', 5),
+(1'Ena', 24),
+(2'Katie', 24);
+
+-- pledges insert
